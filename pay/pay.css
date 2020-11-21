@@ -1,0 +1,96 @@
+.content {
+	height: 800px;
+	margin-top: 10px;
+}
+.content>span.b3 {
+	display: inline-block;
+	margin-top: 20px;
+	color: #999999;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+.pay-top {
+	box-shadow: 0 0 2px 0 rgba(0,0,0,0.3);
+}
+.pay-top>p {
+	width: 100%;
+	height: 40px;
+	background-color: #F5F5F5;
+}
+
+.pay-bottom {
+	width: 100%;
+	height:450px;
+	
+}
+.pay-bottom>h3.a1 {
+	margin-top: 20px;
+	height: 40px;
+	color: #3f3f3f;
+	font-size: 16px;
+	text-align: center;
+}
+.pay-bottom>h3.a2 {
+	font-size: 14px;
+	color: #000000;
+	margin-left: 40px;
+}
+.buy  {
+	height: 300px;
+	width: 1100px;
+	margin: 20px 50px 20px 50px;
+	border-top:1px dashed rgba(0,0,0,0.3);
+	border-bottom:1px dashed rgba(0,0,0,0.3);
+}
+.buy>ul>li {
+	margin-top: 10px;
+	width: 100%;
+	height: 30%;
+	line-height: 90px;
+	
+}
+.buy>ul>li:before {
+	content: "";
+	width: 0;
+	height: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+.buy>ul>li>input {
+	vertical-align: middle;
+}
+.buy>ul>li>span {
+	margin-right: 30px;
+	vertical-align: middle;
+}
+.buy>ul>li>img {
+	vertical-align: middle;
+}
+.pay-money {
+	width: 60px;
+	height: 30px;
+	margin-left: 50px;
+	line-height: 30px;
+	background-color: #666666;
+	border-radius: 5px;
+	border: 0;
+	outline: none;
+	background-color: #999999;
+}
+.pay-finish {
+	width: 100%;
+	height: 50px;
+	font-size: 16px;
+}
+.pay-finish>span.b1 {
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	margin-left: 800px;
+	font-size: 16px;
+}
+.pay-finish>span.account {
+	display: inline-block;
+	font-size: 16px;
+	color: red;
+}

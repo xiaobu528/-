@@ -1,0 +1,377 @@
+.content {
+	margin-top: 10px;
+	height: 1500px;
+	
+}
+.content>p {
+	color: #999999;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+.content:before {
+	content: "";
+	width: 0;
+	height: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+.address-left {
+	vertical-align: top;
+	width: 145px;
+	display: inline-block;
+	height: 600px;
+	margin-right: 10px;
+	
+}
+.address-left>a {
+	text-align: center;
+	width: 145px;
+	box-sizing: border-box;
+}
+.address-left>a>p:hover {
+	color: #EF2323;
+}
+.address-left>a>p {
+	color: #252525;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+.address-left>a.color>p,.address-left>a.color>i {
+	color: #fc463f;
+}
+.address-left>a>p.small {
+	padding-right: 40px;
+}
+.address-left>a>i {
+	font-size: 20px;
+	color: #000000;
+}
+.address-left>a>i.icon-gerenxinxiguanli {
+	font-size: 20px;
+	color: #000000;
+}
+.address-left>a>p.big-size {
+	font-size: 18px;
+	display: inline-block;
+}
+.address-right {
+	vertical-align: top;
+	width: 1010px;
+	/* height: 600px; */
+	display: inline-block;
+}
+.address-right>.one {
+	width: 100%;
+	height: 175px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+.address-right>.two {
+	width: 100%;
+	/* height: 300px; */
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+.address-right>.three {
+	width: 100%;
+	/* height: 600px; */
+	margin-bottom: 20px;
+}
+.one {
+	box-shadow: 0 0 2px 0 rgba(0,0,0,0.3);
+}
+.one:before {
+    content: "";
+    width: 0;
+	height: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+.one>img {
+	vertical-align: middle;
+	width:112px ;
+	height: 112px;
+	margin:30px 5px 30px 30px;
+}
+.one>ul.a1 {
+	display: inline-block;
+	width: 370px;
+	vertical-align: middle;
+}
+.one>ul.a1>li.b1 {
+	font-size: 18px;
+	color: #000000;
+	margin-bottom: 10px;
+}
+.one>ul.a1>li.b2 {
+	color: #ff9c00;
+	font-size: 12px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.one>ul.a1>li.b3 {
+	color: #999999;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.one>ul.a1>li.b4 {
+	color: #000000;
+	font-size: 14px;
+}
+.one>ul.a1>li.b4>span {
+	margin-left: 10px;
+	color: #0099cc;
+	font-size: 12px;
+	cursor: pointer;
+}
+.one>ul.a2>.c1 {
+	color: #000000;
+	font-size: 12px;
+}
+.one>ul.a2>.c2 {
+	color: #fc463f;
+	font-size: 36px;
+}
+.one>ul.a2>.c2>span {
+	color:#fc463f;
+	font-size: 14px;
+}
+.one>ul.a3>.c1 {
+	color: #000000;
+	font-size: 12px;
+}
+.one>ul.a3>.c2 {
+	color: #5db423;
+	font-size: 36px;
+}
+.one>ul.a3>.c2>span {
+	color:#5db423;
+	font-size: 14px;
+}
+.one>ul.a2 {
+	display: inline-block;
+	width: 200px;
+	vertical-align: middle;
+}
+.one>ul.a3 {
+	vertical-align: middle;
+	display: inline-block;
+	width: 200px;
+}
+.two {
+	width: 1100px;
+	min-height: 300px;
+	/* background-color: red; */
+	box-shadow: 0 0 2px 0 rgba(0,0,0,0.3);
+}
+.two>span.d1 {
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 16px;
+	color: #000000;
+}
+.two>span.d2>a {
+	margin-right: 20px;
+	margin-top: 20px;
+	color: #999999;
+	font-size: 14px;
+	float: right;
+}
+.two>span.d2>a:hover {
+	color: red;
+}
+.two>div.my-order {
+	display: inline-block;
+	width: 970px;
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.two>div>p.order-empty {
+	font-size: 16px;
+	color: #999999;
+	text-align: center;
+	margin-top: 120px;
+}
+.two>div>p>a {
+	font-size: 12px;
+	color: #ff9c00;
+}
+table {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+thead {
+    background-color: rgba(0,0,0,0.1);
+}
+.orders-list {
+	width: 970px;
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+	
+}
+.orders-list>thead>tr>td.th1 {
+	width: 110px;
+	height: 40px;
+	color: #000000;
+	font-size: 12px;
+	text-align: center;
+}
+.orders-list>thead>tr>td.th2 {
+	width: 105px;
+	height: 40px;
+	color: #000000;
+	font-size: 12px;
+	text-align: center;
+
+}
+.orders-list>thead>tr>td.th3 {
+	width: 450px;
+	height: 40px;
+	color: #000000;
+	font-size: 12px;
+	text-align: center;
+}
+.orders-list>thead>tr>td.th4 {
+	width: 80px;
+	height: 40px;
+	color: #000000;
+	font-size: 12px;
+	text-align: center;
+}
+.orders-list>thead>tr>td.th5 {
+	width: 100px;
+	height: 40px;
+	color: #000000;
+	font-size: 12px;
+	text-align: center;
+}
+.orders-list>thead>tr>td.th6 {
+	width: 60px;
+	height: 40px;
+	color: #000000;
+	font-size: 12px;
+	text-align: center;
+}
+/* 订单的动态渲染 */
+.my-order>.order-empty ,.my-order>.order-table {
+	display: none;
+}
+.my-order>p.show ,.my-order>.order-table.show {
+	display: block;
+}
+.orders-list>tbody>tr>td {
+	/* border: 1px solid black; */
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.td2 {
+	text-align: center;
+}
+.td3 {
+	text-align: center;
+}
+.td4 {
+	text-align: center;
+}
+.td4:hover {
+	color: red;
+	cursor: pointer;
+}
+.td5 {
+	text-align: center;
+}
+.td5:hover {
+	color: red;
+	cursor: pointer;
+}
+.td6 {
+	text-align: center;
+}
+td.details:before {
+	content: "";
+	width: 0;
+	height: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+.details>img {
+	width: 80px;
+	height: 70px;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+.details>span {
+	vertical-align: middle;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 10px;
+}
+.details>span:hover {
+	color: red;
+	cursor: pointer;
+}
+td.td6>span:hover {
+	color: red;
+	cursor: pointer;
+}
+td.td6>span.active {
+	display: none;
+}
+.orders>span.last {
+	display: inline-block;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	
+}
+.order-table>span.last>span.num {
+	color: red;
+}
+/* 3 */
+.three {
+	/* height: 720px; */
+	box-shadow: 0 0 2px 0 rgba(0,0,0,0.3);
+}
+.three>a>span {
+	width: 970px;
+	/* height: 40px; */
+	color: #000000;
+    font-size: 16px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.three>a>span:hover {
+	color: red;
+}
+.three>ul {
+	font-size: 0;
+}
+.three>ul>li {
+	display: inline-block;
+	width: 25%;
+	height: 280px;
+	margin-bottom: 10px;
+}
+.three>ul>li:hover {
+	box-shadow: 0 0 4px 0 rgba(0,0,0,0.2);
+}
+.three>ul>li>a {
+	box-sizing: border-box;
+	background-color: red;
+	padding-left: 22px;
+}
+.three>ul>li>a>span {
+	color: #ef2323;
+	font-size: 18px;
+	margin-left: 42px;
+}
+.three>ul>li>a>p {
+	font-size: 13px;
+	color: #343434;
+	margin-left: 45px;
+	margin-top: 10px;
+}
+
+

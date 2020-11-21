@@ -1,0 +1,156 @@
+.content {
+	height: 800px;
+	
+}
+ul.address-list {
+	display: flex;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-bottom: 20px;
+}
+ul.address-list>li {
+	margin-right: 20px;
+	border: 1px solid rgba(0,0,0,0.5);
+}
+
+ul.address-list>li>i {
+	color: #999999;
+	font-size: 24px;
+	position: relative;
+	left: -1px;
+}
+ul.address-list>li.select>i {
+	color: #EF2323; 
+}
+ul.address-list>li>h3 {
+	display: inline-block;
+	padding-top: 10px;
+	margin-left: 20px;
+	width: 100px;
+	height: 20px;
+	font-size: 12px;
+	height: 20px;
+	color: #000000;
+}
+ul.address-list>li>span {
+	color: #000000;
+	font-size: 12px;
+}
+ul.address-list>li>p {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.address>.line {
+	width: ;
+	height: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-top: 1px dashed #333333;
+}
+.address>h3 {
+	display: inline-block;
+	padding-top: 10px;
+	margin-left: 20px;
+	width: 100px;
+	height: 20px;
+	font-size: 14px;
+	height: 20px;
+	color: #000000;
+}
+.address {
+	box-shadow: 0 0 2px 0 rgba(0,0,0,0.3);
+	overflow: hidden;
+}
+.address>h2 {
+	
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	color: #333333;
+	background-color: #f5f5f5;
+	padding-left: 20px;
+	
+}
+.address>a {
+	display: inline-block;
+	font-size: 16px;
+	color: #000000;
+	font-size: 14px;
+}
+.address>a >i {
+	color: #000000;
+	margin-right: 10px;
+}
+.address>a:hover {
+	color: red;
+}
+.btn-confirm {
+	color: #000000;
+	background-color: white;
+}
+.content>span {
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	color: #999999;
+	font-size: 12px;
+}
+.product>h3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+.th2 {
+	width: 300px;
+	height: 40px;
+}
+.th3 {
+	width: 300px;
+	height: 40px;
+	
+}
+table{ border-collapse: collapse;
+     background-color: #f5f5f5;
+}
+td { 
+	border: none;
+	font-size: 12px;
+	text-align: center;
+	font-family:Aria;
+	color: #333333;
+}
+.product1-list>tbody>tr>td {
+	background-color: white;
+}
+.product1-list>tbody>tr>td>img {
+	width: 100px;
+	height: 60px;
+}
+.product1-list>tbody>tr>td>span {
+	font-size: 12px;
+}
+.bottom-list {
+	width: 100%;
+	height: 40px;
+	background-color: #f5f5f5;
+	line-height: 40px;
+}
+
+.bottom-list>.btn-confirm {
+	width: 60px;
+	height: 30px;
+	background-color: #Ffdd00;
+	margin-left: 20px;
+	font-size: 12px;
+	color: #000000;
+	border: 0;
+	outline: none;
+}
+.bottom-list>span {
+	padding-left: 960px;
+}
+.bottom-list>span>.account {
+	font-size: 12px;
+	color: #FF0000;
+}

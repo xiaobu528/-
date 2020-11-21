@@ -1,0 +1,247 @@
+.top {
+	width: 100%;
+	height: 45px;
+	background-color: #000000;
+	margin-bottom: 48px;
+}
+.header {
+	height: 100%;
+	
+}
+.header>.header-left {
+	display: inline-block;
+	height: 100%;
+	line-height: 45px;
+	font-size: 0;
+}
+.header>.header-left>li {
+	   display: inline-block;
+	   height: 100%;
+	   width: 116px;
+	   font-size: 14px;
+	   text-align: center;
+}
+.header>.header-left>li>a {
+	padding: 6px;
+	color: #fff;
+    border-radius: 2px;
+	/* background-color: red; */
+}
+.header>.header-left>li.first>a {
+	background-color: #ffdd00;
+	color: #000000;
+}
+.header>.header-left>li.second>a:hover {
+	background-color: #FFDD00;
+	color: #000000;
+}
+
+
+
+.header>.header-right {
+	display: inline-block;
+	height: 100%;
+	line-height: 45px;
+	margin-left: 150px;
+}
+.header>.header-right>li {
+	 display: inline-block;
+	 font-size: 14px;
+	 color: #7d7d7d;
+	 padding: 0 10px;
+}
+.header>.header-right>li>a {
+	color: #7d7d7d;
+}
+.header>.header-right>li.make>a {
+	color: #ffffff;
+}
+.header>.header-right>li.make>a:hover,
+.header>.header-right>li.mi>a:hover,
+.header>.header-right>li.phone:hover {
+	color: #FFDD00;
+}
+.header>.header-right>li.login>a {
+	color: #FFDD00;
+}
+.header>.header-right>li.phone {
+	color: #ff0000;
+}
+/* 第二行 */
+.second {
+	height:48px;
+	
+}
+.second>ul {
+	width: 100%;
+	height: 100%;
+}
+.second>ul:before {
+	content: "";
+	width:0;
+	height: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+.second>ul>li.left {
+	width: 300px;
+	vertical-align: middle;
+	display: inline-block;
+	margin-right: 100px;
+}
+.second>ul>li.left>img {
+	width: 100%;
+	height: 100%;
+}
+.second>ul>li.right {
+	vertical-align: middle;
+	width: 680px;
+	height:48px;
+	line-height: 48px;
+	display: inline-block;
+	margin-left: 80px;
+}
+.second>ul>li.right>ul {
+	/* font-size: 0; */
+	width: 100%;
+	height: 100%;
+}
+.second>ul>li.right>ul>li {
+	width: 158px;
+	height: 48px;
+	line-height: 48px;
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: center;
+}
+.second>ul>li.right>ul>li:before {
+	content: "";
+	width: 0;
+	height: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+.second>ul>li.right>ul>li>span {
+	display: inline-block;
+	font-size: 16px;
+	color: #666666;
+	vertical-align: middle;
+    margin-bottom: 4px;
+	margin-left: 5px;
+}
+.second>ul>li.right>ul>li>i {
+    font-size:24px;
+	vertical-align: middle;
+}
+.content {
+	/* font-size: 0; */
+	margin-top: 100px;
+}
+.content:before {
+	content: "";
+	width: 0;
+	height: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+.content>.img {
+	width: 688px;
+	height: 440px;
+	display: inline-block;
+	vertical-align: top;
+}
+.content>.img>img {
+	width: 100%;
+	height: 100%;
+}
+.content>.form1 {
+	width: 500px;
+	height: 440px;
+	/* background-color: blue; */
+	display: inline-block;
+	vertical-align: top;
+}
+.content>.form1>h1 {
+	display: inline-block;
+	font-size: 16px;
+	color: #343434;
+	margin-top: 40px;
+	margin-bottom: 22px;
+	margin-right: 60px;
+}
+.content>.form1>h3 {
+	font-size: 14px;
+	color: #666666;
+	display: inline-block;
+}
+.content>.form1>h3>a {
+	font-size: 14px;
+	color: red;
+	display: inline-block;
+}
+/* 属性过滤选择器 */
+[type=text],[type=password] {
+    
+	font-size: 14px;
+	/* 去除外面的蓝色文本框 */
+	/* outline: none; */
+	/* 文本缩进 */
+	text-indent: 1em;
+	
+}
+[type=text],[type=password]{
+	width: 270px;
+	height: 40px;
+	margin-bottom: 32px;
+}
+[type=button] {
+	outline: none;
+	width: 272px;
+	height: 44px;
+	margin-top: 10px;
+	font-size: 18px;
+	background-color: #Ffdd00;
+	margin-bottom: 22px;
+    border: 0;
+	outline: none;
+}
+.content>.form1>from>.form-item-wrapper {
+	
+}
+[type=checkbox]{
+	width: 16px;
+	height: 16px;
+}
+.form-item-wrapper:before {
+	content: "";
+	height: 0;
+	width: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+.form-item-wrapper>input.check {
+	vertical-align: middle;
+}
+.form-item-wrapper>.btn-sign:hover {
+	background-color: #ffaa00;
+}
+.form-item-wrapper>span.tai {
+	 display: inline-block;
+	 height: 16px;
+	margin-left: 10px;
+	 font-size: 14px;
+	 color: #666666;
+	 
+	 vertical-align: middle;
+}
+.form-item-wrapper>span.tai>a {
+	color: #0000ff;
+}
+
+
+.footer {
+	margin-top: 20px;
+	font-size: 13px;
+	color: #666666;
+	text-align: center;
+}
